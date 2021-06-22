@@ -6,11 +6,11 @@ using namespace std;
 int main()
 {
     string in="WELCOME";
-    int n=sizeof(in)/sizeof(in[0]);
+    int n=in.length();
     int p=n-1;
     string o;
     int j=0;
-    for(int i=p/2;i<p;i++)
+    for(int i=p/2;i<=p;i++)
     {
         o[j]=in[i];
         for(int l=0;l<=j;l++)
